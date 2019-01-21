@@ -1,0 +1,5 @@
+первый вариант - запускаешь в мсисе мейк вот так: make mode=drmemory memory
+если после этого будетнаписано команда drmemory не найдена, то допиши в мейке
+
+memory : app.exe
+	[путь к drmemory.exe] -brief -- app.exe in_1.txt out_1.txt
